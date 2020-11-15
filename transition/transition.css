@@ -1,0 +1,37 @@
+/* Some preporations for elements */
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.container {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: lightsteelblue;
+  margin: 50px 50px;
+}
+
+.human-card {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px slategray;
+}
+/* End of preporations */
+
+
+/* Transition example */
+.human-card {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.human-card:hover {
+  background-color: snow;
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
+}
+
+

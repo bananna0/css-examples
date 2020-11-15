@@ -1,0 +1,77 @@
+/*Preporation part */
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.container,
+section,
+aside {
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+section,
+aside {
+  display: inline-block;
+  background: cornflowerblue;
+  color: white;
+  margin: 2%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  background-color: slategray;
+  padding: 25px;
+}
+
+.card {
+  display: inline-block;
+  background-color: lightsteelblue;
+  border-radius: 5px;
+}
+
+/* End of preporation part */
+
+/* width and height manipulations without responsiveness*/
+.container {
+  width: 1000px;
+}
+
+section {
+  width: 580px;
+}
+
+aside {
+  width: 250px;
+}
+
+.card {
+  width: 120px;
+  height: 50px;
+}
+
+/* width and height manipulations with responsiveness*/
+.container {
+  width: 100%;
+}
+
+section {
+  width: 58%;
+}
+
+aside {
+  width: 25%;
+}
+
+.card {
+  width: 48%;
+  height: 50px;
+} 

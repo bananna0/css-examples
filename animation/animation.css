@@ -1,0 +1,48 @@
+/* Some preporations for elements */
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.extra {
+  visibility: hidden;
+}
+
+.container {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: lightsteelblue;
+  margin: 50px 20px;
+}
+
+.human-card, 
+.pet-card,
+.house-card {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px slategray;
+}
+
+@keyframes skew {
+  25% {
+    transform: skewX(25deg)
+  }
+
+  75% {
+    transform: skewX(-25deg)
+  }
+}
+
+.skewing-item {
+  animation: skew 3s infinite;
+}
+
+.skewing-item:hover {
+  animation-play-state: paused;
+}
+
+
+

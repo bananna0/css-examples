@@ -1,0 +1,104 @@
+/* Some preporations for elements */
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.extra {
+  visibility: hidden;
+}
+
+.container {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: lightsteelblue;
+  margin: 50px 20px;
+}
+
+.human-card, 
+.pet-card,
+.house-card {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px slategray;
+}
+/* Ending of preporation part */
+
+/* Example for rotating elements */
+/*
+.container {
+  transform: rotate(-10deg);
+}
+
+.human-card {
+  transform: rotate(-20deg);
+}
+
+.pet-card {
+  transform: rotate(20deg);
+}
+*/
+
+/* Example of scaling elements */
+/*
+.human-card {
+  transform: scale(0.5);
+}
+
+.pet-card {
+  transform: scale(1.5);
+}
+*/
+
+/* Example for skewing elements */
+/*
+.container {
+  display: block;
+  width: 150px;
+}
+
+.extra {
+  visibility: visible;
+}
+
+.human-card {
+  transform: skewX(20deg);
+}
+
+.pet-card {
+  transform: skewY(20deg);
+}
+
+.house-card {
+  transform: skew(-20deg, -20deg);
+}
+*/
+
+/*Example for translating elements */
+.container {
+  display: block;
+  width: 150px;
+}
+
+.extra {
+  visibility: visible;
+}
+
+.human-card {
+  transform: translateX(20px);
+}
+
+.pet-card {
+  transform: translateY(-20%);
+}
+
+.house-card {
+  transform: translate(20px, 30px);
+}
+
+
+
+

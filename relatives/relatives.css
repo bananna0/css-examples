@@ -1,0 +1,22 @@
+/* Preporation part */
+.example1, .example2 {
+  width: 300px;
+  margin: 10px;
+}
+
+.example1 {
+  border: 1px solid green;
+}
+
+.example2 {
+  border: 1px solid blue;
+}
+/* The end of preporation part */
+
+.example1  h2 ~ p {
+  color: lightblue;
+}
+
+.example2  h2 + p {
+  color: blueviolet;
+}

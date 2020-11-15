@@ -1,0 +1,65 @@
+/* Some preporations for elements */
+body {
+  font-family: Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.container {
+  font-family: "Times New Roman", Georgia, Serif;
+  font-family: serif;
+  font-family: sans-serif;
+  font-family: monospace;
+  font-family: cursive;
+  font-family: fantasy; 
+}
+
+.human-card {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px slategray;
+}
+/* End of preporations */
+
+
+/* Transition example */
+.human-card {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.human-card:hover {
+  background-color: snow;
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
+}
+
+
+@font-face {
+	font-family: 'FontName'; 
+	src: url(/fonts/font.ttf); 
+}
+ 
+@font-face {
+	font-family: 'FontName bold'; 
+	src: url(/fonts/font-bold.ttf); 
+}
+ 
+@font-face {
+	font-family: 'Font Name'; 
+	src: local('Font Name'),
+		url(/fonts/font.ttf); 
+}
+
+nav {
+	font-family: 'FontName'; 
+	font-size: 20px;
+}
+ 
+.a {
+	font-family: 'FontName bold'; 
+	font-size: 20px;
+}
+

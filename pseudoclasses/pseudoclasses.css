@@ -1,0 +1,30 @@
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.alpha:first-letter,
+.bravo:first-line {
+  color: #ff7b29;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+}
+
+li:before {
+  content: "(´• ω •)";
+  color: lightseagreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+

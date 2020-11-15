@@ -1,0 +1,41 @@
+body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.nav {
+  background-color: lightsteelblue;
+  overflow: hidden;
+}
+
+.nav a:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: cornflowerblue;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+li:first-child {
+  color: pink;
+}
+
+li:last-child {
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
